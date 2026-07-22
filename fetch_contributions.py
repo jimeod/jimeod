@@ -10,41 +10,32 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-response = requests.get(url, headers=headers)
-
-html = response.text
-
-print("Descargado:", len(html))
-
+html = requests.get(url, headers=headers).text
 
 soup = BeautifulSoup(html, "html.parser")
 
+
 cells = soup.select("td.ContributionCalendar-day")
 
-if not cells:
-    print("No se encontraron contribuciones")
-    exit()
+
+print("Celdas encontradas:", len(cells))
 
 
 data = {}
 
+
 for index, cell in enumerate(cells):
 
-    level = cell.get("data-level")
-
-    if level is None:
-        level = 0
-    else:
-        level = int(level)
+    level = cell.get("data-level", "0")
 
     week = index // 7
     day = index % 7
 
-    data[f"{week},{day}"] = level
+    data[f"{week},{day}"] = int(level)
 
 
 with open("contrib_data.json", "w") as f:
     json.dump(data, f)
 
 
-print("Guardadas:", len(data), "celdas")
+print("Archivo generado")
