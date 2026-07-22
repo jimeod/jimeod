@@ -2,6 +2,12 @@
 
 <!-- PROFILE-SVG:START -->
 
+<img 
+    src="https://github.com/jimeod.png?size=200"
+    width="180"
+    alt="jimeod avatar"
+/>
+
 <h2 align="center">
   Hi, I'm jimeod 👋
 </h2>
@@ -22,12 +28,11 @@
     </td>
 
     <td valign="top">
-      <img
-        src="info-card.svg"
+      <img 
+        src="info-card.svg" 
         alt="Neofetch-style info card"
       />
     </td>
-
   </tr>
 </table>
 
@@ -41,3 +46,4 @@
 </p>
 
 <!-- PROFILE-SVG:END -->
+

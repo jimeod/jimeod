@@ -79,13 +79,11 @@ def render_block() -> str:
 
     return f"""{START_MARKER}
 
-<p align="center">
-  <img 
-    <img src="https://github.com/jimeod.png?size=200">
+<img 
+    src="https://github.com/{USERNAME}.png?size=200"
     width="180"
     alt="{USERNAME} avatar"
-  />
-</p>
+/>
 
 <h2 align="center">
   Hi, I'm {USERNAME} 👋
