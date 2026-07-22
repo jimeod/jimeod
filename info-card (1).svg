@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" font-family="'SF Mono','Fira Code','JetBrains Mono',ui-monospace,Consolas,monospace">
+<defs>
+<filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="420" height="420" rx="14" fill="#0d1117"/>
+<rect x="1" y="1" width="418" height="418" rx="13" fill="none" stroke="#30363d" stroke-width="1.2"/>
+<rect opacity="0" width="0" height="0"><animate id="masterClock" attributeName="opacity" values="0;0" dur="4.380s" repeatCount="indefinite"/></rect>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.000s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.000s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="26" font-size="14.5" font-weight="700" fill="#39ffe3" filter="url(#softGlow)">jimeod@github</text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.060s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.060s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<line x1="22" y1="42" x2="398" y2="42" stroke="#30363d" stroke-width="1"/>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.120s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.120s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="70" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#ffab40">ABOUT</text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.180s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.180s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="92" font-size="12.5" fill="#8b949e">Role: <tspan fill="#f2f6fc">Software Engineering student</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.240s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.240s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="114" font-size="12.5" fill="#8b949e">Focus: <tspan fill="#f2f6fc">ML · Computer Vision · Robotics</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.300s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.300s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="136" font-size="12.5" fill="#8b949e">LinkedIn: <tspan fill="#f2f6fc">jimena-ortega-dominguez</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.360s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.360s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="158" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#39d353">BUILDING</text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.420s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.420s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="180" font-size="12.5" fill="#8b949e">Robot: <tspan fill="#39ffe3">Self-balancing bot (ESP32 + IMU)</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.480s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.480s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="202" font-size="12.5" fill="#8b949e">Vision: <tspan fill="#39ffe3">Traffic sign recognition</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.540s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.540s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="224" font-size="12.5" fill="#8b949e">Learning: <tspan fill="#39ffe3">Sensor fusion · PID · YOLO</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.600s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.600s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="246" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#b56bff">STACK</text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.660s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.660s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="268" font-size="12.5" fill="#8b949e">Languages: <tspan fill="#b56bff">Python · C++ · C# · TypeScript</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.720s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.720s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="290" font-size="12.5" fill="#8b949e">ML / CV: <tspan fill="#b56bff">PyTorch · TensorFlow · scikit-learn</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.780s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.780s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="312" font-size="12.5" fill="#8b949e">Tools: <tspan fill="#b56bff">Git · Docker · Arduino · GCP</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.840s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.840s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="334" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#ffab40">HIGHLIGHTS</text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.900s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.900s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="356" font-size="12.5" fill="#8b949e">Activity: <tspan fill="#f2f6fc">64 contributions this year</tspan></text>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" begin="masterClock.begin+0.960s" dur="0.42s" values="0;1" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" begin="masterClock.begin+0.960s" dur="0.42s" values="0,10;0,0" fill="freeze"/>
+<text x="22" y="378" font-size="12.5" fill="#8b949e">Pinned: <tspan fill="#f2f6fc">Self-Balancing-Robot · BatteryMe-app</tspan></text>
+</g>
+</svg>
