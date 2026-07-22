@@ -81,7 +81,7 @@ def render_block() -> str:
 
 <p align="center">
   <img 
-    src="https://github.com/{USERNAME}.png?size=200"
+    <img src="https://github.com/jimeod.png?size=200">
     width="180"
     alt="{USERNAME} avatar"
   />
